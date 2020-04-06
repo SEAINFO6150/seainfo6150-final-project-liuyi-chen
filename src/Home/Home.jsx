@@ -4,8 +4,8 @@ import Form from "../Form/Form";
 const Home = () => {
     return (
         <div>
-            The home page
-            <img src="/images/treefrog.jpg" alt="tree frog" />
+            <h1>Online Bookstore</h1>
+            <img src="/images/books.jpg" alt="books" />
             <Form />
         </div>
     )
