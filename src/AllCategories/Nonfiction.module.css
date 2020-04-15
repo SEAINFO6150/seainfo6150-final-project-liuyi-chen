@@ -1,17 +1,32 @@
 
-h1{
-    margin-left:550px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: Times;
-    font-size: xx-large;
-    font-weight: bolder;
-    color: rgb(83, 78, 78);
-    text-decoration: rgb(83, 78, 78) underline;
-
-
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-left: 200px;
 }
 
 .book{
     margin-top: 50px;
   
 }
+
+
+@media(min-width: 480px){
+    .container{
+        background-color: white;
+        grid-template-columns: auto;
+    }
+}
+@media(min-width: 768px){
+    .container{
+        background-color: grey;
+        grid-template-columns: auto auto;
+    }
+}
+@media(min-width: 1025px){
+    .container{
+        background-color: white;
+        grid-template-columns: auto auto auto;
+    }
+}
+

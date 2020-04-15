@@ -1,16 +1,40 @@
 
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 430px;
 
+}
 .image{
     height: 300px;
     width: 500px;
-    margin-left: 340px;
+
     margin-top: 70px;
 }
 
 .title{
-    margin-left: 550px;
+
+    margin-left: 180px;
     margin-top: 30px;
     font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: Arial Narrow Bold;
+}
+@media(min-width: 480px){
+    .container{
+        background-color: white;
+        grid-template-columns: auto;
+    }
+}
+@media(min-width: 768px){
+    .container{
+        background-color: grey;
+        grid-template-columns: auto auto;
+    }
+}
+@media(min-width: 1025px){
+    .container{
+        background-color: white;
+        grid-template-columns: auto auto auto;
+    }
 }

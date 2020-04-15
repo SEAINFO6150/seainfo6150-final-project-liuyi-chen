@@ -13,7 +13,7 @@ const AllCategories = () => {
          <div>
          <h1>All Categories</h1>
        
-          <div>
+          <div className={styles.container}>
             <div>
           <div><img   className={styles.image} src="/images/Fiction.jpg" alt="fiction" /> </div>
           <div className={styles.title}>

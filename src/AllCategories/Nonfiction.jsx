@@ -10,7 +10,7 @@ const Nonfiction = () => {
   return (
       <div>
          <h1> The Fiction page</h1>
-         <div>
+         <div className={styles.container}>
          <div className={styles.book}>
            <BookItem bookname="Silent Spring" author="Rachel Carson" _url="/images/Silent_Spring.jpg" url="/nonfiction/silent_spring" />
           </div>
