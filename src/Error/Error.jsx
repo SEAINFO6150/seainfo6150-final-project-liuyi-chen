@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./Error.module.css"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Error = () => {
     return (
@@ -14,6 +15,11 @@ const Error = () => {
                </p>
                <p>
                 Please check the input!
+               </p>              
+               <p>
+               <Route>
+               <Link to="/">Back to homepage</Link> 
+                </Route>
                </p>
                </div>
         </div>

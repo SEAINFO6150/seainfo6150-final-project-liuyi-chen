@@ -1,7 +1,6 @@
 {
     "001001-aBook": {
       "bookName": "Gone with the wind",
-      "text": "<p>as you know</p>",
       "pubYear": "2017",
       "author": "Margaret Mitchell",
        "price":"55.00",
@@ -12,7 +11,6 @@
     },
     "001002-bBook": {
       "bookName": "Pride and Prejudice",
-      "text": "<p>so sad</p>",
       "pubYear": "2009",
       "author": "Jane Austen",
        "price":"35.00",
@@ -23,22 +21,20 @@
     },
     "002001-cBook": {
       "bookName": "Silent Spring",
-      "text": "<p>disgusting</p>",
       "pubYear": "2018",
       "author": "Rachel Carson",
         "price":"15.00",
-       "url":"/images/Silent_Spring.jpg",
+       "url":"/nonfiction/silent_spring",
       "image": {
         "_url": "/images/Silent_Spring.jpg"
       }
     },
  "002002-dBook": {
       "bookName": "A Room of One's Own",
-      "text": "<p>disgusting</p>",
       "pubYear": "2003",
       "author": "Virginia Woolf",
       "price":"30.00",
-       "url":"/images/A_Room_of_one's_Own.jpg",
+       "url":"/nonfiction/a_room_of_ones_own",
       "image": {
         "_url": "/images/A_Room_of_one's_Own.jpg"
       }

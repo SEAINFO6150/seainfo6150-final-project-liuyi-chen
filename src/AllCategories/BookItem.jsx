@@ -9,7 +9,7 @@ const BookItem = props => {
   return (
     <Route>
     <div>
-      <div><img  src={props._url} alt={props.bookname} /></div>
+      <div><img  className={styles.image}  src={props._url} alt={props.bookname} /></div>
       <h3><Link to={props.url}>{props.bookname}</Link></h3>
       <div className={styles.author}>Author:{props.author}</div>
 

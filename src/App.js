@@ -6,8 +6,6 @@ import AllBooks from "./AllBooks/AllBooks.jsx";
 import AllCategories from "./AllCategories/AllCategories.jsx";
 import UserInfo from "./UserInfo/UserInfo.jsx";
 import ContactUs from "./ContactUs/ContactUs.jsx";
-import Bar from "./Bar/Bar.jsx";
-import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 import Fiction from "./AllCategories/Fiction.jsx";
 import Nonfiction from "./AllCategories/Nonfiction.jsx";
@@ -69,23 +67,7 @@ function App() {
         <Route path="/nonfiction/a_room_of_ones_own" exact component={A_room_of_ones_own} />
         
         {/* passing parameters via a route path */}
-        <Route
-          path="/bar/:categoryId/:productId"
-          exact
-          render={({ match }) => (
-            // getting the parameters from the url and passing
-            // down to the component as props
-            <Bar
-              categoryId={match.params.categoryId}
-              productId={match.params.productId}
-            />
-          )}
-        />
-        <Route
-          path="/baz"
-          exact
-          render={() => <Baz content={externalContent} />}
-        />
+
         <Route component={Error} /> 
       </Switch>
     </Router>

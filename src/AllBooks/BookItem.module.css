@@ -1,10 +1,24 @@
-.author{
-    margin-left: 565px;
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    align-content: center;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    position: relative;
+
 }
+
+
 .price{
-    margin-left: 565px;
+
     font-family: monospace;
     font-style: monospace ;
+}
+.image{
+    height: 350px;
+    width: 220px;
+
 }
 
 
