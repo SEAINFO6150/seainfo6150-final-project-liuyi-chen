@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./UserInfo.module.css";
+import Form from "./Form.jsx"
 
 
 const UserInfo = () => {
@@ -18,7 +19,7 @@ const UserInfo = () => {
                  <th>Address</th>
              </tr>
              <tr>
-                 <td>Alice</td>
+                 <td>Alice Green</td>
               <td>55</td>
               <td>987-654321</td>
               <td>consumer@book.com</td>
@@ -28,6 +29,8 @@ const UserInfo = () => {
            </table>
            </ol>
            </ul>
+           <div className={styles.inform}>If you want to edit your information,please fill this form:</div>
+          <div className={styles.theForm}> <Form /></div>
           
         </div>
     )
