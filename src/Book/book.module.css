@@ -1,3 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
 .article{
     margin: 20px 200px 40px 200px;
+}
+
+@media(min-width: 480px){
+    .container{
+        background-color: white;
+        grid-template-columns: auto;
+    }
+}
+@media(min-width: 768px){
+    .container{
+        background-color: grey;
+        grid-template-columns: auto auto;
+    }
+}
+@media(min-width: 1025px){
+    .container{
+        background-color: white;
+        grid-template-columns: auto auto auto;
+    }
 }

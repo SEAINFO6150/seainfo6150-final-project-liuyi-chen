@@ -12,11 +12,13 @@ import styles from "./book.module.css";
 const gone_with_the_wind = () => {
   return (
       <div>
-        
+        <div className={styles.container}>
         <div><BookImg url="/images/Gone_with_the_Wind.jpg" bookname="Gone with the Wind" /></div>
+        <div className={styles.rest}>
          <div><BookInfo bookname="Gone with the Wind" author="Margaret Mitchell"  pubYear="2017" price="55.00" /> </div>
        <div><BookButton bookname="Gone with the Wind"  price="55.00" /> </div> 
-       
+       </div>
+       </div>
       
       <section>
       <div className={styles.article}>

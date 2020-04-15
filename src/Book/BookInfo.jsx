@@ -9,8 +9,8 @@ const BookInfo = props => {
   return (
 
     <div>
-      <h1>{props.bookname}</h1>
-      <h3>Author:{props.author}</h3>
+      <div className={styles.bookName}>{props.bookname}</div>
+      <div className={styles.author}>Author:{props.author}</div>
       <time>Year of Publication:{props.pubYear}</time>
       <div className={styles.price}> Price:{props.price}</div>
     </div>

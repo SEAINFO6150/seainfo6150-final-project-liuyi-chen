@@ -1,6 +1,5 @@
 import React from 'react'
 import BookInfo from "./BookInfo"
-
 import BookButton from "./BookButton"
 import BookImg from "./BookImg"
 import styles from "./book.module.css";
@@ -12,11 +11,13 @@ import styles from "./book.module.css";
 const a_room_of_ones_own = () => {
   return (
       <div>
-        
+        <div className={styles.container}>
         <div><BookImg url="/images/A_Room_of_one's_Own.jpg" bookname="A Room of One's Own" /></div>
+        <div className={styles.rest}>
          <div><BookInfo bookname="A Room of One's Own" author="Virginia Woolf"  pubYear="2003" price="30.00"/> </div>
   <div><BookButton bookname="A Room of One's Own" price="30.00"/> </div> 
-       
+       </div>
+         </div>
       
       <section className={styles.container} >
         <div className={styles.article}>

@@ -12,10 +12,13 @@ import styles from "./book.module.css";
 const silent_spring = () => {
   return (
       <div>
-        
+        <div className={styles.container}>
         <div><BookImg url="/images/Silent_Spring.jpg" bookname="Silent Spring" /></div>
+        <div className={styles.rest}>
          <div><BookInfo bookname="Silent Spring" author="Rachel Carson"  pubYear="2000" price="15.00"/> </div>
   <div><BookButton bookname="Silent Spring" price="15.00"/> </div> 
+       </div>
+       </div>
        
       
       <section>

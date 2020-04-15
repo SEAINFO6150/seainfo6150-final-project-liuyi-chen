@@ -12,10 +12,13 @@ import styles from "./book.module.css";
 const pride_and_prejudice = () => {
   return (
     <div>
-        
+        <div className={styles.container}>
     <div><BookImg url="/images/Pride_and_Prejudice.jpg" bookname="Pride and Prejudice" /></div>
+    <div className={styles.rest}>
      <div><BookInfo bookname="Pride and Prejudice" author="Jane Austen"  pubYear="2009" price="35.00" /> </div>
 <div><BookButton bookname="Pride and Prejudice" price="35.00"/> </div> 
+     </div>
+     </div>
    <section>
    <div className={styles.article}>
      <p>
