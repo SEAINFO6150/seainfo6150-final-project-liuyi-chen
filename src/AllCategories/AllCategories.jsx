@@ -12,20 +12,24 @@ const AllCategories = () => {
        <Route>
          <div>
          <h1>All Categories</h1>
-        <ul>
-          
-          <ol><img   className={styles.image} src="/images/Fiction.jpg" alt="fiction" /> </ol>
-          <ol className={styles.title}>
+       
+          <div>
+            <div>
+          <div><img   className={styles.image} src="/images/Fiction.jpg" alt="fiction" /> </div>
+          <div className={styles.title}>
              <Link to="/fiction">Fiction</Link>
-          </ol>
-          <ul></ul>
-          <ul></ul>
+          </div>
+            </div>
           
-          <ol><img   className={styles.image} src="/images/Nonfiction.jpg" alt="nonfiction" /></ol>
-          <ol className={styles.title}>
+            <div>
+          <div><img   className={styles.image} src="/images/Nonfiction.jpg" alt="nonfiction" /></div>
+          <div className={styles.title}>
           <Link to="/nonfiction">Nonfiction</Link>
-          </ol>
-        </ul>
+          </div>
+          </div>
+
+          </div>
+       
         </div>
 
 

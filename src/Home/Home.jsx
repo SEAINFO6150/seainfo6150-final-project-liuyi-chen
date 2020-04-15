@@ -12,9 +12,9 @@ const Home = () => {
             <div className={styles.text}>
                 <h2>Knowledge makes humble, ignorance makes proud.</h2>
             </div>
-            <div className={styles.books} ><Link to="/allBooks">View All Books</Link></div>
+            <div className={styles.books} ><Link to="/allBooks">Click to View All Books</Link></div>
             
-            <div className={styles.categories} ><Link to="/allCategories">View All Categories</Link></div>
+            <div className={styles.categories} ><Link to="/allCategories">Click to View All Categories</Link></div>
     
         </div>
         </Route>
