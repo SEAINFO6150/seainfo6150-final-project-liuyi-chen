@@ -7,8 +7,11 @@ const UserInfo = () => {
     return (
            <div>
            <h1> User Information </h1>
-           <ul className={styles.ui}>
-          <ol> <img src="/images/portrait.jpg" className={styles.image} /></ol>
+           <div className={styles.container}>
+           
+          <div> <img src="/images/portrait.jpg" className={styles.image} /></div>
+          <div>
+          <ul className={styles.ui}>
           <ol>
            <table className={styles.theTable}>
              <tr>
@@ -29,6 +32,8 @@ const UserInfo = () => {
            </table>
            </ol>
            </ul>
+           </div>
+           </div>
            <div className={styles.inform}>If you want to edit your information,please fill this form:</div>
           <div className={styles.theForm}> <Form /></div>
           

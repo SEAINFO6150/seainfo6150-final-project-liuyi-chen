@@ -1,26 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
 .image{
     margin-top: 50px;
-    margin-left: 500px;
-    height: 350px;
-    width: 300px;
+    margin-left: 350px;
+    height: 70px;
+    width: 60px;
 }
 
 
 .theTable{
     margin-top: 50px;
-    margin-left: 420px;  
+    height: 70px;
+
+ 
     border-style: solid;
     border-color: rgb(126, 34, 49);
 
 }
 
 .theForm{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 420px;
 
 }
 .inform{
     margin-left: 420px; 
+    margin-top: 50px;
+}
+
+@media(min-width: 480px){
+    .container{
+        background-color: white;
+        grid-template-columns: auto;
+    }
+}
+@media(min-width: 768px){
+    .container{
+        background-color: grey;
+        grid-template-columns: auto auto;
+    }
+}
+@media(min-width: 1025px){
+    .container{
+        background-color: white;
+        grid-template-columns: auto auto auto;
+    }
 }
 
 
