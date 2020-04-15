@@ -1,0 +1,27 @@
+
+h1{
+    margin-left:550px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: Times;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(83, 78, 78);
+    text-decoration: rgb(83, 78, 78) underline;
+
+
+}
+
+.image{
+    height: 300px;
+    width: 500px;
+    margin-left: 340px;
+    margin-top: 70px;
+}
+
+.title{
+    margin-left: 550px;
+    margin-top: 30px;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: Arial Narrow Bold;
+}

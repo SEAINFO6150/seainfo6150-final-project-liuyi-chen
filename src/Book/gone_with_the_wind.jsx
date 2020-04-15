@@ -3,6 +3,7 @@ import BookInfo from "./BookInfo"
 
 import BookButton from "./BookButton"
 import BookImg from "./BookImg"
+import styles from "./book.module.css";
 
 
 
@@ -13,11 +14,12 @@ const gone_with_the_wind = () => {
       <div>
         
         <div><BookImg url="/images/Gone_with_the_Wind.jpg" bookname="Gone with the Wind" /></div>
-         <div><BookInfo bookname="Gone with the Wind" author="Margaret Mitchell"  pubYear="2017" /> </div>
-  <div><BookButton bookname="Gone with the Wind"/> </div> 
+         <div><BookInfo bookname="Gone with the Wind" author="Margaret Mitchell"  pubYear="2017" price="55.00" /> </div>
+       <div><BookButton bookname="Gone with the Wind"  price="55.00" /> </div> 
        
       
       <section>
+      <div className={styles.article}>
         <p>
         Gone with the Wind is a novel by American writer Margaret Mitchell, first published in 1936.
          The story is set in Clayton County and Atlanta, both in Georgia, during the American Civil War and
@@ -31,6 +33,7 @@ const gone_with_the_wind = () => {
          and white. Scholars at American universities refer to, interpret, and study it in their writings. The novel
           has been absorbed into American popular culture.
         </p>
+        </div>
 
       </section>
       </div>

@@ -1,0 +1,10 @@
+header{
+    color: brown;
+  
+}
+.ui{
+    margin-left: 350px;
+}
+.ui ol{
+    float: left;
+}

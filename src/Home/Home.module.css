@@ -1,0 +1,41 @@
+.container {
+
+    height: 700px;
+    width: 1200;
+    align-content: center;
+    border-style:solid ;
+    border-color: rgba(219, 220, 223, 0.836);
+    background-color: rgba(219, 220, 223, 0.836);
+
+}
+
+.image{
+    margin-left: 475px;
+    height: 350px;
+    width: 500px;
+}
+.text{
+    font-size: x-large;
+    color: rgb(29, 115, 185);
+    margin-left: 300px;
+}
+.books{
+    margin-left:600px; 
+    font-size: x-large;
+}
+.categories{
+    margin-left:600px;
+    font-size: x-large; 
+}
+h1{
+    margin-left:550px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: Times;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(83, 78, 78);
+    text-decoration: rgb(83, 78, 78) underline;
+   
+
+}
+

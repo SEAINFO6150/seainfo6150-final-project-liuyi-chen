@@ -15,6 +15,7 @@ import Gone_with_the_wind from "./Book/gone_with_the_wind.jsx";
 import Pride_and_Prjudice from "./Book/pride_and_prejudice.jsx";
 import Silent_spring from "./Book/silent_spring.jsx";
 import A_room_of_ones_own from "./Book/a_room_of_ones_own.jsx";
+import styles from "./App.module.css";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -30,32 +31,28 @@ function App() {
     <Router>
       <header>
         <nav>
-          <ul>
+          <ul className={styles.ui}>
             {/* these links should show you how to connect up a link to a specific route */}
-            <li>
+            <ol>
               <Link to="/">Home</Link>
-            </li>
-            <li>
+            </ol>
+            <ol>
               <Link to="/allBooks">AllBooks</Link>
-            </li>
-            <li>
+            </ol>
+            <ol>
               <Link to="/allCategories">AllCategories</Link>
-            </li>
-            <li>
+            </ol>
+            <ol>
               <Link to="/userinfo">User Information</Link>
-            </li>
-            <li>
+            </ol>
+            <ol>
               <Link to="/contactus">Contact Us</Link>
-            </li>
-            <li>
-              <Link to="/bar/hats/sombrero">Bar</Link>
-            </li>
-            <li>
-              <Link to="/baz">Baz</Link>
-            </li>
+            </ol>
+
           </ul>
         </nav>
       </header>
+      <br></br>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
       <Switch>

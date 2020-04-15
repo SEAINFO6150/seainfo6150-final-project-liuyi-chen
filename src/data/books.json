@@ -1,58 +1,46 @@
 {
     "001001-aBook": {
-      "slug": "181122102925-statue-of-liberty-crown",
       "bookName": "Gone with the wind",
-      "shortText": "The Statue of Liberty's original torch is getting a new home",
       "text": "<p>as you know</p>",
-      "pubDate": "Thu, 22 Nov 2018 15:12:24 GMT",
-      "pubYear": "2018",
+      "pubYear": "2017",
       "author": "Margaret Mitchell",
+       "price":"55.00",
+       "url": "/fiction/gone_with_the_wind",
       "image": {
-        "_url": "/images/Gone_with_the_Wind.jpg",
-        "_height": "619",
-        "_width": "1100"
+        "_url": "/images/Gone_with_the_Wind.jpg"
       }
     },
     "001002-bBook": {
-      "slug": "170321135754-airport-security-line",
       "bookName": "Pride and Prejudice",
-      "shortText": "Getting excited to eat your mother's roast turkey, your uncle's stuffing and your sister's famous green bean casserole?",
       "text": "<p>so sad</p>",
-      "pubDate": "Wed, 21 Nov 2018 22:57:55 GMT",
-      "pubYear": "2018",
+      "pubYear": "2009",
       "author": "Jane Austen",
+       "price":"35.00",
+       "url": "/fiction/pride_and_prejudice",
       "image": {
-        "_url": "/images/Pride_and_Prejudice.jpg",
-        "_height": "619",
-        "_width": "1100"
+        "_url": "/images/Pride_and_Prejudice.jpg"
       }
     },
     "002001-cBook": {
-      "slug":"181119170125-ploughgate-creamery-butter-ball",
       "bookName": "Silent Spring",
-      "shortText": "Amid the farm houses and barns dotting the Mad River Valley area of rural Vermont, five miles north of Sugarbush ski resort, Marisa Mauro is making butter.",
       "text": "<p>disgusting</p>",
-      "pubDate": "Wed, 21 Nov 2018 13:17:49 GMT",
       "pubYear": "2018",
       "author": "Rachel Carson",
+        "price":"15.00",
+       "url":"/images/Silent_Spring.jpg",
       "image": {
-        "_url": "/images/Silent_Spring.jpg",
-        "_height": "619",
-        "_width": "1100"
+        "_url": "/images/Silent_Spring.jpg"
       }
     },
  "002002-dBook": {
-      "slug":"181119170125-ploughgate-creamery-butter-ball",
       "bookName": "A Room of One's Own",
-      "shortText": "Amid the farm houses and barns dotting the Mad River Valley area of rural Vermont, five miles north of Sugarbush ski resort, Marisa Mauro is making butter.",
       "text": "<p>disgusting</p>",
-      "pubDate": "Wed, 21 Nov 2018 13:17:49 GMT",
-      "pubYear": "2018",
+      "pubYear": "2003",
       "author": "Virginia Woolf",
+      "price":"30.00",
+       "url":"/images/A_Room_of_one's_Own.jpg",
       "image": {
-        "_url": "/images/A_Room_of_one's_Own.jpg",
-        "_height": "619",
-        "_width": "1100"
+        "_url": "/images/A_Room_of_one's_Own.jpg"
       }
     }
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Fiction from "./Fiction.jsx";
-import Nonfiction from "./Nonfiction.jsx";
+import styles from "./AllCategories.module.css";
 
 
 
@@ -11,17 +10,23 @@ const AllCategories = () => {
   
 
        <Route>
+         <div>
          <h1>All Categories</h1>
         <ul>
-          <ol>
+          
+          <ol><img   className={styles.image} src="/images/Fiction.jpg" alt="fiction" /> </ol>
+          <ol className={styles.title}>
              <Link to="/fiction">Fiction</Link>
           </ol>
-          <ol><img src="/images/Fiction.jpg" alt="fiction" /> </ol>
-          <ol>
+          <ul></ul>
+          <ul></ul>
+          
+          <ol><img   className={styles.image} src="/images/Nonfiction.jpg" alt="nonfiction" /></ol>
+          <ol className={styles.title}>
           <Link to="/nonfiction">Nonfiction</Link>
           </ol>
-          <ol><img src="/images/Nonfiction.jpg" alt="nonfiction" /></ol>
         </ul>
+        </div>
 
 
         </Route>

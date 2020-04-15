@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from "./BookInfo.module.css";
 
 
 
@@ -10,7 +11,8 @@ const BookInfo = props => {
     <div>
       <h1>{props.bookname}</h1>
       <h3>Author:{props.author}</h3>
-      <time>{props.pubYear}</time>
+      <time>Year of Publication:{props.pubYear}</time>
+      <div className={styles.price}> Price:{props.price}</div>
     </div>
    
   );
